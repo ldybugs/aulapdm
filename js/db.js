@@ -47,9 +47,6 @@ async function getData() {
     }
 }
 
-function showResult(text) {
-    document.querySelector("output".innerHTML = text);
-}
 
 async function addData() {
     const tx = await db.transaction('pessoas', 'readwrite');
