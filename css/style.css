@@ -4,26 +4,10 @@ body{
     text-align: center;
 }
 
-.titulo{
-    font-style: oblique;
+.container {
+    margin: auto;
 }
 
-.botao {
-    padding: 6px 17px;
-    border-radius:  12px;
-    line-height: 1.25;
-    background: #6A207D;
-    text-decoration: none;
-    color: white;
-    font-size: 9px;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    position: relative;
-    transition: background-color .6s ease;
-    overflow: hidden;
-    
-  }
-
-  .cor{
-    color: #6A207D;
-  }
+.title{
+    font-size: 3rem;
+}
