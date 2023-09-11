@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Truco</title>
+    <title>PWA vite</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Placar de truco">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-256.png">
+    <link rel="shortcut icon" href="images/icon-256.png" type="image/png">
     <link rel="apple-touch-icon" href="images/icon-256.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/style.css">
@@ -14,39 +13,11 @@
     <script type="module" src="js/db.js"></script>
 </head>
 <body>
-    <div>
-        <h2 class="titulo">♣️ Pontuador de Truco ♦️</h2>
-        <form id="form" onsubmit="return false;">
-            <input id="equipe1" type="text" placeholder="Equipe 1">
-            <input id="equipe2" type="text" placeholder="Equipe 2">
-        </P>
-            <button onclick="comecar()" class="botao">Iniciar o Jogo</button>
-        </form>
-    </div>
-    <div id="partida" style="display: none;">
-        <div>
-            <h2 class="cor" id="equipe1h2">Equipe 1</h2>
-            <h2 class="pontos">Pontos: <span id="pontos1"></span></h2>
-            <button onclick="pontua1(1)">1</button>
-            <button onclick="pontua1(3)">3</button>
-            <button onclick="pontua1(6)">6</button>
-            <button onclick="pontua1(12)">12</button>
-        </div>
-        <div>
-            <h2 class="cor" id="equipe2h2">Equipe 2</h2>
-            <h2 class="pontos">Pontos: <span id="pontos2"></span></h2>
-            <button onclick="pontua2(1)">1</button>
-            <button onclick="pontua2(3)">3</button>
-            <button onclick="pontua2(6)">6</button>
-            <button onclick="pontua2(12)">12</button>
-        </div>
-        <div>
-            <h2 class="cor">Vitórias 1:</h2><h2 id="vitorias1">0</h2>
-            <h2 class="cor">Vitórias 2:</h2><h2 id="vitorias2">0</h2>
-            <button onclick="recomecar()">Parar Jogo</button>
-        </div>
-    </div>
-   
+  <img src="/images/icon-256.png" alt="pdm" width="256" height="256">
+   <div class="container">
+    <h1 class="titulo">Aula pdm eba</h1>
+   </div>
+
     <div style="text-align: center;">
       <button id="btnSalvar">Salvar</button>
       <button id="btnListar">Listar</button>

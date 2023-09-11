@@ -47,10 +47,14 @@ async function getData() {
     }
 }
 
+function showResult(text) {
+    document.querySelector("output".innerHTML = text);
+}
+
 async function addData() {
     const tx = await db.transaction('pessoas', 'readwrite');
     const store = tx.objectStore('pessoas');
-    store.add({ nome: 'Fulano' });
+    store.add({ nome: 'Vivi', idade: 16 });
     await tx.done;
 }
 
